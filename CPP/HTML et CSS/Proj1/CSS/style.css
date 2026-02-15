@@ -1,0 +1,256 @@
+body{
+    background-color: #040f2ce2;
+    
+}
+.contenu{
+    display: flex;
+    width: 100%;
+
+}
+#left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: rgba(256, 256, 256, 0.2);
+    width: 5%;
+    height: 560px;
+    float: left;
+    padding: 4px;
+
+}
+img[alt="wind"]{
+    background-color: rgba(161, 149, 149, 0.29);
+    border-radius: 8px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    padding: 4px;
+}
+.im1{
+    width: 25px;
+    height: auto;
+    color: white;
+    display: block;
+}
+a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 10px;
+    color:white;
+    text-align: center;
+    margin:auto;
+}
+.im2:hover{
+    background-color: rgba(255, 255, 255, 0.235);
+    border-radius: 5px;
+    padding: 4px;
+}
+.crii{
+    vertical-align: auto;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 40px 5px 5px 5px;
+    background-color: rgba(256, 256, 256, 0.2);
+    width: 35%;
+    height: 530px;
+    float: right;
+}
+.titre1{
+    align-self: flex-start;
+}
+h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    margin: 4px;
+    margin-bottom: 20px;
+}
+.Mon{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 70px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
+}
+.Monday{
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    opacity: 0.3;
+}
+
+.sol{
+    width:40px;
+    height: 40px; 
+    position: relative;
+    top: 6px;
+}
+.sunny{
+    color: white;
+    font-family: 'Trebuchet MS';
+    position: relative;
+    right: 50px;
+}
+.d36{
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+.d22{
+    color: white;
+    font-family: 'Trebuchet MS';
+    opacity: 0.6;
+}
+.wekk{
+    margin-right: 27px;
+} 
+
+/* Le milieu de page  */
+#center{
+    width: 60%;
+}
+#search{
+    background-color: rgba(241, 234, 234, 0.3);
+    width: 98%;
+    border-radius: 10px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+}
+#search::placeholder{
+    color: white;
+    padding: 5px;
+}
+#main{
+    width: 98%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#sol1{
+    width: 30%;
+    height: auto;
+    float: right;
+    margin: 8px 0 0 8px;
+}
+
+#day{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin-left:15px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#chrain{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.397);
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    margin: 4px 0px 0px 15px;
+}
+#deg{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    margin: 40px 0px 0px 17px;
+}
+#main1{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 15px;
+    border-radius: 10px;
+    height: 160px;
+}
+.met h3{
+    padding: 20px 0px 0px 20px;
+    font-size: 10px;
+}
+#metday{
+    display: flex;
+    flex-direction: row;
+}
+.ous{
+    margin-left: 40px;
+}
+.daymet{
+    width: 90px;
+    border-right: 2px rgba(255, 255, 255, 0.3) solid;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pho{
+    width: 50px;
+    height: auto;
+    margin: 0px;
+
+}
+.time{
+    width: 60px;
+    margin: 0 0 8px 0;
+    color: white;
+    font-size: x-small;
+    font-family: 'Trebuchet MS';
+}
+.deg1{
+    margin: 8px 0 0 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+#main3{
+    background-color: rgba(255, 255, 255, 0.217);
+    height: 160px;
+    border-radius: 6px;
+    margin: 10px;
+}
+#main3 h3{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 10px;
+    padding: 10px 0px 0px 15px;
+    margin: 3px;
+}
+.p1 div img{
+    height: 15px;
+    width: 15px;
+}
+.p1 {
+    line-height: 1px;
+    height:40px;
+    width: 140px;
+    margin: 0px 20px 2px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.A1{
+    height: 20px;
+    margin: 1px;
+    padding: 1px;
+    color: white;
+}
+.A2{
+    color: white;
+    padding: 1px;
+    font-size: large;
+    margin-bottom: 2px;
+}
+.A1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
